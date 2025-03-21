@@ -1,5 +1,5 @@
 - name: installing roboshop project
-  host: mongodb
+  hosts: mongodb
   become: yes
   roles: 
   - mongodb
